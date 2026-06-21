@@ -1,3 +1,4 @@
+﻿#ADDED COMMENT FOR THIS CODE IN add-comments-to-file BRANCH
 import sys
 from argparse import ArgumentParser
 from pathlib import Path
