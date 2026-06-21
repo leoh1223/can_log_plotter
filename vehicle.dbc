@@ -1,0 +1,7 @@
+VERSION ""
+BS_:
+BU_: 
+BO_ 200 Vehicle_Dynamics: 8 Vector__XXX
+ SG_ Steering_Angle : 0|16@1- (0.1,0) [-360|360] "deg" Vector__XXX
+ SG_ Vehicle_Speed : 16|8@1+ (1,0) [0|250] "km/h" Vector__XXX
+ SG_ Brake_Pedal : 24|8@1+ (0.5,0) [0|100] "%" Vector__XXX

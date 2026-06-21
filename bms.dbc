@@ -1,0 +1,13 @@
+VERSION ""
+BS_:
+BU_: 
+BO_ 500 BMS_Status: 8 Vector__XXX
+ SG_ State_of_Charge : 0|8@1+ (0.5,0) [0|100] "%" Vector__XXX
+ SG_ Pack_Voltage : 8|16@1+ (0.1,0) [0|500] "V" Vector__XXX
+ SG_ Pack_Current : 24|16@1- (0.1,0) [-500|500] "A" Vector__XXX
+ SG_ Max_Cell_Temp : 40|8@1+ (1,-40) [-40|100] "C" Vector__XXX
+
+BO_ 501 Cell_Voltages: 6 Vector__XXX
+ SG_ Cell_1_Voltage : 0|16@1+ (0.001,0) [0|5] "V" Vector__XXX
+ SG_ Cell_2_Voltage : 16|16@1+ (0.001,0) [0|5] "V" Vector__XXX
+ SG_ Cell_3_Voltage : 32|16@1+ (0.001,0) [0|5] "V" Vector__XXX

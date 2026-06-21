@@ -1,0 +1,6 @@
+VERSION ""
+BS_:
+BU_: 
+BO_ 256 Motor_Status: 8 Vector__XXX
+ SG_ Bus_Voltage : 0|16@1+ (0.1,0) [0|100] "V" Vector__XXX
+ SG_ Phase_Current : 16|16@1- (0.1,0) [-500|500] "A" Vector__XXX
